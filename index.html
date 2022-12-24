@@ -13,12 +13,12 @@
     <body>
         <!--image sidebar-->
         <div class="image-section">
-            <img src="./images/wolfgang-hasselmann-pe-GUtsGMsM-unsplash.jpg" alt="oak tree">
+            <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="oak tree">
             <div class="logo">
                 <img src="./images/odin-lined.png" alt="the odin project logo">
                 <h1>WODIN</h1>
             </div>
-            <p class="image-attribution">image courtesy of <a href="https://unsplash.com/@wolfgang_hasselmann">Wolfgang Hasselmann</a> on <a href="https://unsplash.com/">unsplash.com</a></p>
+            <p class="image-attribution">image courtesy of <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">unsplash.com</a></p>
         </div>
 
         <div class="right-side">
@@ -30,24 +30,30 @@
                     <p>Let's do this!</p>
                 </div>
                 <form action="http://www.web.com" method="post">
-                    <label for="first-name">
-                        first name <input type="text" name="user_first_name" id="first-name">
-                    </label>
-                    <label for="last-name">
-                        last name <input type="text" name="user_last_name" id="last-name">
-                    </label>
-                    <label for="email">
-                        email <input type="email" name="user_email" id="email">
-                    </label>
-                    <label for="phone">
-                        phone number <input type="tel" name="user_telephone" id="phone">
-                    </label>
-                    <label for="password">
-                        password <input type="password" name="user_password" id="password">
-                    </label>
-                    <label for="verify-passwor">
-                        confirm password <input type="password" name="" id="verify-password">
-                    </label>
+                    <div class="group1">
+                        <label for="first-name">
+                            first name <input required type="text" name="user_first_name" id="first-name" placeholder="John">
+                        </label>
+                        <label for="email">
+                            email <input required type="email" name="user_email" id="email" placeholder="e.g. example@example.com">
+                        </label>
+                        <label for="password">
+                            password <input required type="password" name="user_password" id="password" placeholder="password1@">
+                        </label>
+                    </div>
+                    <div class="group2">
+                        <label for="last-name">
+                            last name <input required type="text" name="user_last_name" id="last-name" placeholder="Smith">
+                        </label>
+                        
+                        <label for="phone">
+                            phone number <input required type="tel" name="user_telephone" id="phone" placeholder="000-000-0000">
+                        </label>
+                        
+                        <label for="verify-password">
+                            confirm password <input required type="password" name="" id="verify-password" placeholder="password1@">
+                        </label>
+                    </div>
                 </form>
             </div>
 
