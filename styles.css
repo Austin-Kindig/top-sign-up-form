@@ -1,4 +1,4 @@
-/*need to find font for WODEN*/
+/*need to add js password comparison validation*/
 @font-face {
     font-family: Norse Bold;
     src: url(./Norse-Bold.otf);
@@ -57,7 +57,7 @@ h1 {
     color: white;
     position: absolute;
     bottom: 3%;
-    left: 30%;
+    left: 5vw;
 
 }
 
