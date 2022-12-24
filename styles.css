@@ -33,12 +33,14 @@ body {
 }
 
 .image-section {
-    width: 50vw;
+    max-width: 40vw;
     height: 100vh;
     position: relative;
 }
-img {
-    width: 100%;
+
+.image-section > img {
+    max-width: 40vw;
+    height: 100vh;
 }
 
 h1 {
